@@ -80,7 +80,7 @@ function App() {
       <div className="network-status-message">
         {networkSpeedStatus && <p>{networkSpeedStatus}</p>}
       </div>
-      <iframe
+      {/* <iframe
   src="https://www.mixweb.io/banner?industry=Consumer%20Electronics"
   width="100%"
   height="75px"
@@ -99,7 +99,7 @@ function App() {
   animate={{ y: 0, opacity: 1 }}
   transition={{ duration: 0.5 }}
   className="mt-[75px] top-[75px] z-50 "
-></motion.header>
+></motion.header> */}
 
       <Outlet />
     </div>
